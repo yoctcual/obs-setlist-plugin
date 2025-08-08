@@ -14,3 +14,5 @@ target_link_libraries(obs_setlist_plugin
     PRIVATE
     libobs::obs
 )
+
+add_subdirectory(plugins/setlist-plugin)
